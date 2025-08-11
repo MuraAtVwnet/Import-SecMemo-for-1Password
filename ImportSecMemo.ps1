@@ -42,7 +42,7 @@ foreach( $SecMemo in $SecMemos){
 		op item create --category $Category --title $Titol notesPlain=$Value
 	}
 	else{
-		op item create --category $Category --Vault $Vault --title $Titol notesPlain=$Value
+		op item create --category $Category --vault $Vault --title $Titol notesPlain=$Value
 	}
 }
 
